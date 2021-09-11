@@ -8,6 +8,6 @@ class DemoControllerTest {
 
     @Test
     void hello() {
-        assertNull(new DemoController().hello());
+        assertNotNull(new DemoController().hello());
     }
 }
